@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Contact Us | Wamilda Hotel Demo</title>
+  <meta name="description" content="Contact ZKB Twins Hotel — send a message and find us on the map." />
+
+  <link rel="icon" href="images/fevicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="main-layout" id="top">
+
+  <!-- Loader -->
+  <div class="loader_bg" id="loader" aria-hidden="true">
+    <div class="loader">
+      <img src="images/loading.gif" alt="Loading" />
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header">
+      <div class="container header-row">
+
+        <div class="logo_section">
+          <div class="logo">
+            <a href="index.html" aria-label="Home">
+              <img src="images/zkbLogo.jpg" alt="Hotel logo" loading="eager" decoding="async" />
+            </a>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navigation" id="navMenu" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="room.html">Our room</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a class="active" href="contact.html">Contact Us</a>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact (PAGE ONLY) -->
+  <section class="contact contact-page" id="contact" aria-label="Contact us">
+    <div class="container">
+      <div class="titlepage center">
+        <h2>Contact Us</h2>
+        <p>Message us anytime — we’ll respond as soon as possible.</p>
+      </div>
+
+      <div class="contact-row">
+        <form id="request" class="main_form">
+          <input class="contactus" placeholder="Name" type="text" name="name" required />
+          <input class="contactus" placeholder="Email" type="email" name="email" required />
+          <input class="contactus" placeholder="Phone Number" type="tel" name="phone" required />
+          <textarea class="textarea" placeholder="Message" name="message" rows="5"></textarea>
+          <button class="send_btn" type="submit">Send</button>
+          <p class="form_note" id="formNote" aria-live="polite"></p>
+        </form>
+
+        <div class="map_main">
+          <div class="map-responsive">
+            <iframe
+              title="Map"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Donato%20Quinto%20St%20%26%20T.%20Ramirez%20sr.,%20General%20Santos%20City%20(Dadiangas),%20South%20Cotabato&output=embed"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="container footer-grid">
+
+        <div class="footer-col">
+          <h3>Contact US</h3>
+          <ul class="conta">
+            <li>📍 Ramirez Street corner Quinto Street,<br>General Santos City, Philippines</li>
+            <li>📞 +63 930 946 2363</li>
+            <li>✉️ <a href="mailto:zkbtwinshotel@gmail.com">zkbtwinshotel@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Menu Link</h3>
+          <ul class="link_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="room.html">Our Room</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>News letter</h3>
+          <form class="bottom_form" id="newsletterForm">
+            <input class="enter" placeholder="Enter your email" type="email" name="email" required />
+            <button class="sub_btn" type="submit">subscribe</button>
+            <p class="form_note" id="newsNote" aria-live="polite"></p>
+          </form>
+
+          <div class="social_icon" aria-label="Social links">
+            <a href="https://www.facebook.com/profile.php?id=61571061760837" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <p>
+            © <span id="year"></span> All Rights Reserved.
+            <span style="opacity:.85;">| Website by <a href="https://markryanwamilda.com" style="color:#fff; text-decoration:underline; font-weight:700;">Mark Ryan Wamilda</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Gallery | Wamilda Hotel Demo</title>
+  <meta name="description" content="Gallery - Wamilda Hotel Demo." />
+
+  <link rel="icon" href="images/fevicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="main-layout" id="top">
+
+  <!-- Loader -->
+  <div class="loader_bg" id="loader" aria-hidden="true">
+    <div class="loader">
+      <img src="images/loading.gif" alt="Loading" />
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="header">
+      <div class="container header-row">
+
+        <div class="logo_section">
+          <div class="logo">
+            <a href="index.html" aria-label="Home">
+              <img src="images/zkbLogo.jpg" alt="Hotel logo" loading="eager" decoding="async" />
+            </a>
+          </div>
+        </div>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="navigation" id="navMenu" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="room.html">Our room</a>
+          <a class="active" href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Gallery ONLY -->
+  <section class="gallery" id="gallery" aria-label="Gallery">
+    <div class="container">
+      <div class="titlepage center">
+        <h2>gallery</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery_img">
+          <a href="images/zkbgallery1.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 1 image">
+            <img src="images/zkbgallery1.jpg" alt="Gallery 1" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery2.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 2 image">
+            <img src="images/zkbgallery2.jpg" alt="Gallery 2" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery3.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 3 image">
+            <img src="images/zkbgallery3.jpg" alt="Gallery 3" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery4.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 4 image">
+            <img src="images/zkbgallery4.jpg" alt="Gallery 4" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery5.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 5 image">
+            <img src="images/zkbgallery5.jpg" alt="Gallery 5" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery6.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 6 image">
+            <img src="images/zkbgallery6.jpg" alt="Gallery 6" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery7.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 7 image">
+            <img src="images/zkbgallery7.jpg" alt="Gallery 7" loading="lazy" decoding="async" />
+          </a>
+        </div>
+
+        <div class="gallery_img">
+          <a href="images/zkbgallery8.jpg" target="_blank" rel="noopener" aria-label="Open Gallery 8 image">
+            <img src="images/zkbgallery8.jpg" alt="Gallery 8" loading="lazy" decoding="async" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="container footer-grid">
+
+        <div class="footer-col">
+          <h3>Contact US</h3>
+          <ul class="conta">
+            <li>📍 Ramirez Street corner Quinto Street,<br>General Santos City, Philippines</li>
+            <li>📞 +63 930 946 2363</li>
+            <li>✉️ <a href="mailto:zkbtwinshotel@gmail.com">zkbtwinshotel@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Menu Link</h3>
+          <ul class="link_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="room.html">Our Room</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>News letter</h3>
+          <form class="bottom_form" id="newsletterForm">
+            <input class="enter" placeholder="Enter your email" type="email" name="email" required />
+            <button class="sub_btn" type="submit">subscribe</button>
+            <p class="form_note" id="newsNote" aria-live="polite"></p>
+          </form>
+
+          <div class="social_icon" aria-label="Social links">
+            <a href="https://www.facebook.com/profile.php?id=61571061760837" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        <div class="container">
+          <p>
+            © <span id="year"></span> All Rights Reserved.
+            <span style="opacity:.85;">| Website by <a href="https://markryanwamilda.com" target="_blank" rel="noopener" style="color:#fff; text-decoration:underline; font-weight:700;">Mark Ryan Wamilda</a></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
